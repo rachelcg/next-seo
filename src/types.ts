@@ -480,6 +480,7 @@ export interface DefaultSeoProps {
   titleTemplate?: string;
   themeColor?: string;
   defaultTitle?: string;
+  norobots?: boolean;
   robotsProps?: AdditionalRobotsProps;
   description?: string;
   canonical?: string;
